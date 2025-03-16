@@ -1,0 +1,45 @@
+name: sinAutoFarm
+version: '1.0.1'
+main: org.sinAutoFarm.SinAutoFarm
+api-version: '1.21'
+description: A plugin that allows auto-replanting crops.
+author: Sinsamuth
+
+permissions:
+  sinAutoFarm.wheat:
+    description: Allows the player to auto-replant wheat.
+    default: false
+  sinAutoFarm.carrot:
+    description: Allows the player to auto-replant carrot.
+    default: false
+  sinAutoFarm.potato:
+    description: Allows the player to auto-replant potato.
+    default: false
+  sinAutoFarm.beetroot:
+    description: Allows the player to auto-replant beetroot.
+    default: false
+  sinAutoFarm.nether_wart:
+    description: Allows the player to auto-replant nether wart.
+    default: false
+  sinAutoFarm.fill.wheat:
+    description: Allows the player to fill wheat in area.
+    default: false
+  sinAutoFarm.fill.carrot:
+    description: Allows the player to fill carrot in area.
+    default: false
+  sinAutoFarm.fill.potato:
+    description: Allows the player to fill potato in area.
+    default: false
+  sinAutoFarm.fill.beetroot:
+    description: Allows the player to fill beetroot in area.
+    default: false
+  sinAutoFarm.fill.nether_wart:
+    description: Allows the player to fill nether wart in area.
+    default: false
+
+  sinAutoFarm.fill.all:
+    description: Allows the player to fill all crops in area.
+    default: op
+  sinAutoFarm.all:
+    description: Allows the player to auto-replant all crops.
+    default: op
